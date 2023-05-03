@@ -8,6 +8,7 @@ import ProductHowItWorks from "./modules/views/ProductHowItWorks";
 import ProductCTA from "./modules/views/ProductCTA";
 import AppAppBar from "./modules/views/AppAppBar";
 import withRoot from "./modules/withRoot";
+import Pricing from "./modules/components/Pricing";
 
 function Index() {
   return (
@@ -15,6 +16,7 @@ function Index() {
       <AppAppBar />
       <ProductHero />
       <ProductValues />
+        <Pricing />
       <ProductCategories />
       <ProductHowItWorks />
       <ProductCTA />
