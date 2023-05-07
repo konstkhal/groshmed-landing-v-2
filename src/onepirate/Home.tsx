@@ -16,7 +16,7 @@ function Index() {
       <AppAppBar />
       <ProductHero />
       <ProductValues />
-        <Pricing />
+      <Pricing />
       <ProductCategories />
       <ProductHowItWorks />
       <ProductCTA />

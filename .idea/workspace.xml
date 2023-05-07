@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40d2e38a-802d-4d9d-92ec-3cf200fa52fe" name="Changes" comment="fix(withRoot): Fix tslint error">
+    <list default="true" id="40d2e38a-802d-4d9d-92ec-3cf200fa52fe" name="Changes" comment="fix(settings): Fix @types/react ver.- set ^17.0.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/onepirate/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/onepirate/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/onepirate/modules/views/AppAppBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/onepirate/modules/views/AppAppBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/onepirate/modules/views/ProductHero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/onepirate/modules/views/ProductHero.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feat____hero-section",
     "last_opened_file_path": "C:/Users/diacheck/IdeaProjects/landings/groshmed-landing-v-2/src/onepirate/modules/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -82,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683451064664</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix(settings): Fix @types/react ver.- set ^17.0.0">
+      <created>1683451966596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683451966596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +107,8 @@
     <MESSAGE value="fix(Project): Fix build feature by stepping back" />
     <MESSAGE value="fix(withRoot module): Fix tslint error" />
     <MESSAGE value="fix(withRoot): Fix tslint error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(withRoot): Fix tslint error" />
+    <MESSAGE value="fix(settings): Fix @types/react ver.- set ^17.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(settings): Fix @types/react ver.- set ^17.0.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

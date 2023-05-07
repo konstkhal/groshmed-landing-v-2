@@ -3,9 +3,8 @@ import Button from "../components/Button";
 import Typography from "../components/Typography";
 import ProductHeroLayout from "./ProductHeroLayout";
 import { Link as RouterLink } from "react-router-dom";
+import backgroundImage from "../../../images/hero-webp.webp"; // Under Standart ShutterStock License
 
-const backgroundImage =
-  "https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400&q=80";
 
 export default function ProductHero() {
   return (
@@ -23,7 +22,7 @@ export default function ProductHero() {
         alt="increase priority"
       />
       <Typography color="inherit" align="center" variant="h2" marked="center">
-        Upgrade your Sundays
+        Стань независимым больным
       </Typography>
       <Typography
         color="inherit"
@@ -31,7 +30,7 @@ export default function ProductHero() {
         variant="h5"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-        Enjoy secret offers up to -70% off the best luxury hotels every Sunday.
+        Вооружись знаниями, опытом и навыками для битвы с диабетом. Скидки до 75% для подходящих абитуриентов.
       </Typography>
       <Button
         color="secondary"
@@ -41,10 +40,10 @@ export default function ProductHero() {
         to="/sign-up/"
         sx={{ minWidth: 200 }}
       >
-        Register
+        Регистрация
       </Button>
       <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
-        Discover the experience
+        Войди в умное сообщество
       </Typography>
     </ProductHeroLayout>
   );
