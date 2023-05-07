@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40d2e38a-802d-4d9d-92ec-3cf200fa52fe" name="Changes" comment="fix(withRoot module): Fix tslint error" />
+    <list default="true" id="40d2e38a-802d-4d9d-92ec-3cf200fa52fe" name="Changes" comment="fix(withRoot): Fix tslint error">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +31,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "fix____tslint-error",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/diacheck/IdeaProjects/landings/groshmed-landing-v-2/src/onepirate/modules/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -72,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683450966114</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix(withRoot): Fix tslint error">
+      <created>1683451064664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683451064664</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,7 +96,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix(Project): Fix build feature by stepping back" />
     <MESSAGE value="fix(withRoot module): Fix tslint error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(withRoot module): Fix tslint error" />
+    <MESSAGE value="fix(withRoot): Fix tslint error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(withRoot): Fix tslint error" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
