@@ -25,7 +25,7 @@ function AppAppBar() {
             to="/"
             sx={{ fontSize: 24 }}
           >
-            {"Включаем в сообщество Groshmed"}
+            {"Обучаем в сообществе Groshmed"}
           </Link>
           </Box>
         {/*  <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>

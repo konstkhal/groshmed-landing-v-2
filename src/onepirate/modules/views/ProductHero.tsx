@@ -3,7 +3,7 @@ import Button from "../components/Button";
 import Typography from "../components/Typography";
 import ProductHeroLayout from "./ProductHeroLayout";
 import { Link as RouterLink } from "react-router-dom";
-import backgroundImage from "../../../images/hero-webp.webp"; // Under Standart ShutterStock License
+import backgroundImage from "../../../images/hero-webp.png"; // Under Standart ShutterStock License
 
 
 export default function ProductHero() {
@@ -11,7 +11,7 @@ export default function ProductHero() {
     <ProductHeroLayout
       sxBackground={{
         backgroundImage: `url(${backgroundImage})`,
-        backgroundColor: "#7fc7d9", // Average color of the background image.
+        backgroundColor: "#DBE2DE", // Average color of the background image.
         backgroundPosition: "center",
       }}
     >
@@ -30,7 +30,7 @@ export default function ProductHero() {
         variant="h5"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-        Вооружись знаниями, опытом и навыками для битвы с диабетом. Скидки до 75% для подходящих абитуриентов.
+        Скидки до 75% для подходящих больных с диабетом.
       </Typography>
       <Button
         color="secondary"
@@ -43,7 +43,7 @@ export default function ProductHero() {
         Регистрация
       </Button>
       <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
-        Войди в умное сообщество
+        Войди в умное сообщество и приобрети знания, опыт и навыки для восстановления работоспособности организма.
       </Typography>
     </ProductHeroLayout>
   );

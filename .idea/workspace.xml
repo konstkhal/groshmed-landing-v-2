@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40d2e38a-802d-4d9d-92ec-3cf200fa52fe" name="Changes" comment="feat(landing-hero): Add image from src, ru - translation">
+    <list default="true" id="40d2e38a-802d-4d9d-92ec-3cf200fa52fe" name="Changes" comment="fix(page): Fix page metadata">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/onepirate/modules/views/AppAppBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/onepirate/modules/views/AppAppBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/onepirate/modules/views/ProductHero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/onepirate/modules/views/ProductHero.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683465804283</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix(page): Fix page metadata">
+      <created>1683467319288</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683467319288</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +139,8 @@
     <MESSAGE value="fix(withRoot): Fix tslint error" />
     <MESSAGE value="fix(settings): Fix @types/react ver.- set ^17.0.0" />
     <MESSAGE value="feat(landing-hero): Add image from src, ru - translation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(landing-hero): Add image from src, ru - translation" />
+    <MESSAGE value="fix(page): Fix page metadata" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(page): Fix page metadata" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
