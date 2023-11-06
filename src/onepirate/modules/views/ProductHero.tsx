@@ -39,7 +39,7 @@ export default function ProductHero() {
         to="/sign-up/"
         sx={{ minWidth: 200 }}
       >
-        Регистрация
+        Register
       </Button>
       <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
         Join the smart community and acquire the knowledge, experience, and
