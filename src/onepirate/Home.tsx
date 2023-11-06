@@ -19,6 +19,7 @@ function Index() {
       <Pricing />
       <ProductCategories />
       <ProductHowItWorks />
+        Some text
       <ProductCTA />
       <ProductSmokingHero />
       <AppFooter />

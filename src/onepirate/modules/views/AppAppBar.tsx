@@ -1,9 +1,9 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
-import Link from "@mui/material/Link";
-import AppBar from "../components/AppBar";
-import Toolbar from "../components/Toolbar";
-import { Link as RouterLink } from "react-router-dom";
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
+import AppBar from '../components/AppBar';
+import Toolbar from '../components/Toolbar';
+import { Link as RouterLink } from 'react-router-dom';
 
 /*const rightLink = {
   fontSize: 16,
@@ -15,20 +15,20 @@ function AppAppBar() {
   return (
     <div>
       <AppBar position="fixed">
-        <Toolbar sx={{ justifyContent: "space-between" }}>
-          <Box sx={{ flex: 1, display: "flex", justifyContent: "center" }} >
-          <Link
-            variant="h6"
-            underline="none"
-            color="inherit"
-            component={RouterLink}
-            to="/"
-            sx={{ fontSize: 24 }}
-          >
-            {"Обучаем в сообществе Groshmed"}
-          </Link>
+        <Toolbar sx={{ justifyContent: 'space-between' }}>
+          <Box sx={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
+            <Link
+              variant="h6"
+              underline="none"
+              color="inherit"
+              component={RouterLink}
+              to="/"
+              sx={{ fontSize: 24 }}
+            >
+              {'Educating in the Groshmed community'}
+            </Link>
           </Box>
-        {/*  <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
+          {/*  <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
             <Link
               color="inherit"
               variant="h6"

@@ -1,23 +1,23 @@
-import * as React from "react";
-import { Field, Form, FormSpy } from "react-final-form";
-import Box from "@mui/material/Box";
-import Link from "@mui/material/Link";
-import Typography from "./modules/components/Typography";
-import AppFooter from "./modules/views/AppFooter";
-import AppAppBar from "./modules/views/AppAppBar";
-import AppForm from "./modules/views/AppForm";
-import { email, required } from "./modules/form/validation";
-import RFTextField from "./modules/form/RFTextField";
-import FormButton from "./modules/form/FormButton";
-import FormFeedback from "./modules/form/FormFeedback";
-import withRoot from "./modules/withRoot";
-import { Link as RouterLink } from "react-router-dom";
+import * as React from 'react';
+import { Field, Form, FormSpy } from 'react-final-form';
+import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
+import Typography from '@mui/material/Typography';
+import AppFooter from './modules/views/AppFooter';
+import AppAppBar from './modules/views/AppAppBar';
+import AppForm from './modules/views/AppForm';
+import { email, required } from './modules/form/validation';
+import RFTextField from './modules/form/RFTextField';
+import FormButton from './modules/form/FormButton';
+import FormFeedback from './modules/form/FormFeedback';
+import withRoot from './modules/withRoot';
+import { Link as RouterLink } from 'react-router-dom';
 
 function SignIn() {
   const [sent, setSent] = React.useState(false);
 
   const validate = (values: { [index: string]: string }) => {
-    const errors = required(["email", "password"], values);
+    const errors = required(['email', 'password'], values);
 
     if (!errors.email) {
       const emailError = email(values.email);
@@ -38,11 +38,11 @@ function SignIn() {
       <AppAppBar />
       <AppForm>
         <React.Fragment>
-          <Typography variant="h3" gutterBottom marked="center" align="center">
+          <Typography variant="h3" gutterBottom align="center">
             Sign In
           </Typography>
           <Typography variant="body2" align="center">
-            {"Not a member yet? "}
+            {'Not a member yet? '}
             <Link
               component={RouterLink}
               to="/sign-up/"
@@ -105,7 +105,7 @@ function SignIn() {
                 color="secondary"
                 fullWidth
               >
-                {submitting || sent ? "In progress…" : "Sign In"}
+                {submitting || sent ? 'In progress…' : 'Sign In'}
               </FormButton>
             </Box>
           )}
