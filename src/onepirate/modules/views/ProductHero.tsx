@@ -21,7 +21,7 @@ export default function ProductHero() {
         alt="increase priority"
       />
       <Typography color="inherit" align="center" variant="h2">
-        Become an independent patient
+        Become independently ill, as an Active Health Participant
       </Typography>
       <Typography
         color="inherit"
@@ -29,7 +29,8 @@ export default function ProductHero() {
         variant="h5"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-        Discounts up to 75% for eligible patients with diabetes.
+        Discounts up to 75% for eligible diabetes-ill participants actively
+        managing their health
       </Typography>
       <Button
         color="secondary"

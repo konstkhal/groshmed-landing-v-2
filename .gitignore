@@ -24,3 +24,4 @@ yarn-error.log*
 
 # Service (own)
 /.service/
+!/src/types_training/
