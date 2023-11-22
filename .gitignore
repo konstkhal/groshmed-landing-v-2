@@ -23,5 +23,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # Service (own)
-/.service/
-!/src/types_training/
+/.service/*
+/src/types_training/*
+
+#TS config files
+/tsconfig-new.json
+/tsconfig-old.json
